@@ -1,0 +1,7 @@
+# robots.txt for OTT Release Hub
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Sitemap location (update with your real domain after publishing)
+Sitemap: https://your-username.github.io/sitemap.xml
