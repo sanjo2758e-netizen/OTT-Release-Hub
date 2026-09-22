@@ -371,14 +371,23 @@ main {
 
 .ad-container.ad-incontent {
   min-height: 90px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ad-container.ad-sidebar {
   min-height: 90px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ad-container.ad-footer {
   min-height: 90px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ---- Hero / Featured ---- */
