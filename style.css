@@ -369,15 +369,12 @@ main {
   justify-content: center;
 }
 
-{
-  min-height: 120px;
+.ad-container.ad-incontent {
+  min-height: 90px;
 }
 
 .ad-container.ad-sidebar {
   min-height: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .ad-container.ad-footer {
