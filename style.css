@@ -355,7 +355,7 @@ main {
 }
 
 .ad-container::before {
-  content: "Advertisement";
+  content: "";
   display: block;
   font-size: 0.7rem;
   margin-bottom: 6px;
