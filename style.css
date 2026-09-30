@@ -355,11 +355,7 @@ main {
 
 .ad-container::before {
 
-  content: "";
-  display: block;
-  font-size: 0.7rem;
-  margin-bottom: 6px;
-  color: var(--text-dim);
+ 
 
    min-height: 90px;
             border: 1px dashed rgba(255,255,255,0.25);
@@ -387,14 +383,38 @@ main {
 
 .ad-container.ad-incontent {
   min-height: 90px;
+  border: 1px dashed rgba(255,255,255,0.25);
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #81788b;
+            font-size: 12px;
+            margin: 15px 0 25px;
 }
 
 .ad-container.ad-sidebar {
   min-height: 90px;
+  border: 1px dashed rgba(255,255,255,0.25);
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #81788b;
+            font-size: 12px;
+            margin: 15px 0 25px;
 }
 
 .ad-container.ad-footer {
   min-height: 90px;
+  border: 1px dashed rgba(255,255,255,0.25);
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #81788b;
+            font-size: 12px;
+            margin: 15px 0 25px;
 }
 
 /* ---- Hero / Featured ---- */
