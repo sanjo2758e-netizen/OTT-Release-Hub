@@ -146,7 +146,8 @@ const releases = [
     director: "Manu Anand",
     synopsis:
       " A rogue agent races against time to stop a global nuclear catastrophe while uncovering a massive hidden conspiracy.",
-    trailerUrl: "https://www.youtube.com/watch?v=jZeFbbs8Isw",
+     trailerUrl: "https://www.youtube.com/watch?v=jZeFbbs8Isw",
+    
     faqs: [
       {
         question: "What language is Vaanam Lines releasing in?",
@@ -352,6 +353,24 @@ const releases = [
     trailerUrl: "https://www.youtube.com/watch?v=RA6xU_7Kteg",
     faqs: [],
     updated: "2025-08-29",
+  },
+  {
+    slug: "Batchmates",
+    title: "Batchmates",
+    type: "Web Series",
+    poster:
+      "images (10).jpeg",
+    releaseDate: "May 2, 2026",
+    platform: "jiohotstar",
+    language: " Telugu",
+    genre: "Coming-of-age comedy-drama",
+    cast: "Sindhu Reddy, Sai Sriraam Vemparaala, Anthony Karthik  ",
+    director: "  Anu Prasad, Sriharsha Setty, Pawan Kumar",
+    synopsis:
+      "The series follows four first-year engineering students who enter college with grand ideas of freedom, fun, and bunking classes. Instead, they face a rude awakening involving strict seniors, hostel politics, and heavy academic pressure. Guided loosely by Deepika Mam (Bindu Madhavi), the group navigates hilarious blunders, rivalries, and growing pains that ultimately test and strengthen their friendship.",
+    trailerUrl: "https://www.youtube.com/watch?v=0tS61qOELus",
+    faqs: [],
+    updated: "2026-05-2",
   },
 ];
 

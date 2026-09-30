@@ -428,7 +428,7 @@
       "</strong></span>" +
       "</div>" +
       "</header>" +
-      '<div class="ad-container ad-leaderboard">Ad slot — article top (YOUR_AD_SLOT_ID)</div>' +
+      '<div class="ad-container ad-leaderboard"></div>' +
       '<div class="article-layout">' +
       '<div class="article-poster ' +
       platformClass(r.platform) +
@@ -464,7 +464,7 @@
       escapeHtml(r.type) +
       "</td></tr>" +
       "</tbody></table>" +
-      '<div class="ad-container ad-incontent">Ad slot — article in-content (YOUR_AD_SLOT_ID)</div>' +
+      '<div class="ad-container ad-incontent"></div>' +
       '<section class="article-section"><h2>Synopsis</h2><p>' +
       escapeHtml(r.synopsis) +
       "</p></section>" +
@@ -486,7 +486,7 @@
       "</p>" +
       "</div>" +
       "</div>" +
-      '<div class="ad-container ad-incontent">Ad slot — article bottom (YOUR_AD_SLOT_ID)</div>' +
+      '<div class="ad-container ad-incontent"></div>' +
       '<section class="section"><h2 class="section-title">Related OTT Releases</h2><div class="card-grid" id="relatedGrid">' +
       relatedHTML +
       "</div></section>";

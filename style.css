@@ -342,31 +342,47 @@ main {
 
 /* ---- Ad containers ---- */
 .ad-container {
-  margin: 16px 0;
-  padding: 24px 16px;
-  background: var(--bg-elev);
-  border: 1px dashed var(--border);
-  border-radius: var(--radius-sm);
-  text-align: center;
-  color: var(--text-dim);
-  font-size: 0.8rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+   min-height: 90px;
+            border: 1px dashed rgba(255,255,255,0.25);
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #81788b;
+            font-size: 12px;
+            margin: 15px 0 25px;
 }
 
 .ad-container::before {
+
   content: "";
   display: block;
   font-size: 0.7rem;
   margin-bottom: 6px;
   color: var(--text-dim);
+
+   min-height: 90px;
+            border: 1px dashed rgba(255,255,255,0.25);
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #81788b;
+            font-size: 12px;
+            margin: 15px 0 25px;
+
 }
 
 .ad-container.ad-leaderboard {
   min-height: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+            border: 1px dashed rgba(255,255,255,0.25);
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #81788b;
+            font-size: 12px;
+            margin: 15px 0 25px;
 }
 
 .ad-container.ad-incontent {
