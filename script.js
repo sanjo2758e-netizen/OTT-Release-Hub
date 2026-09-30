@@ -584,6 +584,45 @@
       document.head.appendChild(faqScript);
     }
   }
+  <div id="ad-container"></div>
+
+
+const adContainer = document.getElementById("ad-container");
+
+if (window.innerWidth <= 600) {
+
+    // MOBILE AD
+    const script = document.createElement("script");
+    script.src = "<script>"
+  atOptions = {
+    'key' : '5cdfec2a7bdc54493692a7f86d8a1a51',
+    'format' : 'iframe',
+    'height' : 50,
+    'width' : 320,
+    'params' : {}
+  };
+
+<script src="https://cowardrainbowactual.com/5cdfec2a7bdc54493692a7f86d8a1a51/invoke.js"></script>";
+    adContainer.appendChild(script);
+
+} else {
+
+    // DESKTOP 728x90 AD
+    const script = document.createElement("script");
+    script.src = "<script>"
+  atOptions = {
+    'key' : '5cdfec2a7bdc54493692a7f86d8a1a51',
+    'format' : 'iframe',
+    'height' : 90,
+    'width' : 728,
+    'params' : {}
+  };
+</script>
+<script src="https://cowardrainbowactual.com/5cdfec2a7bdc54493692a7f86d8a1a51/invoke.js"></script>";
+    adContainer.appendChild(script);
+
+}
+
 
   /* ---------- Contact form ---------- */
   function initContact() {
